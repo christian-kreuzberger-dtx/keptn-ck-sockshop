@@ -1,0 +1,17 @@
+---
+spec_version: "1.0"
+comparison:
+  aggregate_function: "avg"
+  compare_with: "single_result"
+  include_result_with_score: "pass"
+  number_of_comparison_results: 1
+filter:
+objectives:
+  - sli: "response_time_p95"
+  - sli: "response_time_p50"
+  - sli: "throughput"
+  - sli: "error_rate"
+
+total_score:
+  pass: "90%"
+  warning: "50%"

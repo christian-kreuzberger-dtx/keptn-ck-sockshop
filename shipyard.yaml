@@ -18,8 +18,8 @@ spec:
         properties: null
       - name: approval
         properties:
-          pass: automatic
-          warning: automatic
+          pass: manual
+          warning: manual
       - name: release
         properties: null
     - name: delivery-direct

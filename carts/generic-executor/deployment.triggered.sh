@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo '{"something": "$1"}'
+cat $1
 

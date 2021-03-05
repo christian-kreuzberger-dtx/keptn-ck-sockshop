@@ -5,7 +5,7 @@ metadata:
   name: carts
 spec:
   gateways:
-  - istio-system.public-gateway
+  - public-gateway.istio-system
   - mesh
   hosts:
   - carts.ck-sockshop-production.gke.demo.keptn.sh

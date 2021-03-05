@@ -1,5 +1,4 @@
 #!/bin/bash
 
-echo "Hi"
-
+echo '{"something": "$1"}'
 
